@@ -1,4 +1,4 @@
-resource "aws_elasticache_cluster" "example" {
+resource "aws_elasticache_cluster" "main" {
   cluster_id           = "${local.TAG_PREFIX}-cluster"
   engine               = var.ENGINE
   engine_version       = var.ENGINE_VERSION
